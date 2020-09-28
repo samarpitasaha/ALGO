@@ -25,10 +25,12 @@ int main()
         switch(option)
         {
         case 0:
-            if(top==-1)
-                printf("\nYES EMPTY");
-            else
+            if(top!=-1)
+                
                 printf("\nNOT EMPTY");
+                
+            else
+                printf("\nYES EMPTY");
             break;
         case 1:
             printf("\n Enter the number to be pushed on stack: ");
