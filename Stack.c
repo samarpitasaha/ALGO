@@ -1,7 +1,8 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<conio.h>
-#define MAX 5
+//INCREASING MAXIMUM SIZE OF THE STACK
+#define MAX 100
 
 int st[MAX],top=-1;
 void push(int st[],int val);
