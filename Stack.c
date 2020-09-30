@@ -97,8 +97,9 @@ void display(int st[])
         printf("\n STACK IS EMPTY");
     else
     {
+        printf("\n");
         for(int i=top; i>=0; i--)
-            printf("\n %d",st[i]);
+            printf("\n \\\%d"///,st[i]);
         printf("\n");
     }
 }
