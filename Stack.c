@@ -1,6 +1,5 @@
 #include<stdio.h>
 #include<stdlib.h>
-#include<conio.h>
 #define MAX 5
 
 int st[MAX],top=-1;
