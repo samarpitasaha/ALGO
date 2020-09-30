@@ -63,9 +63,7 @@ void push(int st[],int val)
         return;
     }
     else
-    {
         st[++top]=val;
-    }
 }
 int pop(int st[])
 {
@@ -75,9 +73,7 @@ int pop(int st[])
         return -1;
     }
     else
-    {
         return st[top--];
-    }
 }
 int peek(int st[])
 {
@@ -87,9 +83,7 @@ int peek(int st[])
         return -1;
     }
     else
-    {
         return st[top];
-    }
 }
 void display(int st[])
 {
